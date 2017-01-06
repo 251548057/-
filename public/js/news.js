@@ -2,10 +2,8 @@ window.onload = function(){
 	var list = document.getElementsByClassName('news');
 	var texts = document.getElementsByClassName("otext");
 	for(var i=0; i<list.length; i++){
-		console.log(list[i]);
 		list[i].addEventListener('touchstart', function(){
 			var id = this.getAttribute('dataid');
-			console.log(id);
 			var texts = document.getElementsByClassName("otext");
 			for(var j=0; j < texts.length; j++){
 				if(texts[j].id == id){

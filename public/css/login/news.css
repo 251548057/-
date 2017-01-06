@@ -42,6 +42,7 @@ body {
 .otext {
   padding: 0px 15px 0px 15px;
   margin-top: 80px;
+  padding-bottom: 50px;
 }
 .otext .obox {
   padding: 10px 10px 10px 10px;
@@ -138,11 +139,11 @@ body {
   margin-top: 4px;
 }
 .bottom {
+  width: 20%;
   float: left;
-  margin-left: 36px;
 }
 .bottom-jia {
-  width: 50px;
+  width: 20%;
   height: 50px;
   background: url("../../../public/img/jiajia.png") no-repeat center;
   background-size: 100%;
